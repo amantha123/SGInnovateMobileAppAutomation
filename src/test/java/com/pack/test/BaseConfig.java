@@ -33,7 +33,7 @@ public class BaseConfig {
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 5");
-        caps.setCapability(MobileCapabilityType.APP, "/Users/amantha1/Documents/Sharegratitude Mobile Automation/App/HUMAN_DEV_base.apk");
+        caps.setCapability(MobileCapabilityType.APP, "/Users/amantha1/Documents/SGInnovateMobileAppAutomation/App/KuushyAppV0.6.0_DEV.apk");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver<>(url, caps);
         wait = new WebDriverWait(driver, 10);
