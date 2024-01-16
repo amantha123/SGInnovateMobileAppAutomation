@@ -23,6 +23,11 @@ public class QRScannerScreenTestCase extends BaseConfig{
        System.out.println("Element is clicked");
        Thread.sleep(2000);
 
+       MobileElement Allow = (MobileElement) driver.findElementById("com.android.permissioncontroller:id/permission_allow_button");
+       Allow.click();
+       System.out.println("Element is clicked");
+       Thread.sleep(2000);
+
        MobileElement QRScannerLabel = (MobileElement) driver.findElementByAccessibilityId("QR Scanner");
        QRScannerLabel.isDisplayed();
        System.out.println("Element is displayed");
